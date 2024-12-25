@@ -1,0 +1,25 @@
+.ide-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .editor-section,
+  .output-section,
+  .instruction-section {
+    margin: 5px;
+  }
+  
+  textarea {
+    width: 60%;
+    height: 100px;
+    font-family: monospace;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 20px auto;
+  }
+  
